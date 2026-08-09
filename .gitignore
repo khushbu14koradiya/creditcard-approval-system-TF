@@ -1,10 +1,25 @@
+# Terraform
 .terraform/
-.terraform.lock.hcl
-
 *.tfstate
 *.tfstate.*
 crash.log
+crash.*.log
 
+# Terraform variable files
+*.tfvars
+*.tfvars.json
+
+# SSH private keys
 *.pem
+*.key
 
-terraform.tfvars
+# Terraform lock file
+# Keep this file in Git
+# .terraform.lock.hcl
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
